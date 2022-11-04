@@ -11,7 +11,7 @@ Bu proje *Eylül 2020*'de yapılıp anlatımı [kişisel](https://zekeriyaay.com
 
 -  2 adet [***Arduino Nano***](https://www.direnc.net/arduino-nano-usb-chip-ch340-usb-kablo-dahil) ***—*** Boyutundan ötürü *Nano* tercih ettim. Uno, Mega veya Nano kullanmak size kalmış. Mega kullanıcaksanız bağlantılarda birkaç değişiklik oluyor unutmayın! (Anlatımda bundan bahsediyorum.)
 
--  2 adet [***nRF24L01 PA LNA 2.4GHz Alıcı-Verici Modül***](https://www.direnc.net/nrf24l01-plus-pa-wireless-modul) ***—*** Antenli versiyonunu kullandım. İki versiyonun da bağlantıları aynı. Antensiz versiyonu açık alanda ortalama 100 metre, kapalı alanda ise ortalama 10–20 metre mesafede çalışıyormuş(Söylenene göre…). Antenli versiyonu ise ortalama 10 kat arttırıyor. Mesafe testinin videosu **🙏Yardım Aldığım Kaynaklar**’da mevcut. VCC’yi 3.3V’a bağlayın yoksa bozuluyor veya adaptör ile 5V’da kullanın. Ben adaptörle 5V da kullandım. Adaptörsüz kullanıcaksanız modüle kondansatör lehimlemeniz gerekiyor. **🙏Yardım Aldığım Kaynaklar**’da hangi pinlere bağlandığıyla ilgili link var.
+-  2 adet [***nRF24L01 PA LNA 2.4GHz Alıcı-Verici Modül***](https://www.direnc.net/nrf24l01-plus-pa-wireless-modul) ***—*** Antenli versiyonunu kullandım. İki versiyonun da bağlantıları aynı. Antensiz versiyonu açık alanda ortalama 100 metre, kapalı alanda ise ortalama 10–20 metre mesafede çalışıyormuş(Söylenene göre…). Antenli versiyonu ise ortalama 10 kat arttırıyor. Mesafe testinin videosu **[🙏Yardım Aldığım Kaynaklar](#heading-yardim-aldigim-kaynaklar)**’da mevcut. VCC’yi 3.3V’a bağlayın yoksa bozuluyor veya adaptör ile 5V’da kullanın. Ben adaptörle 5V da kullandım. Adaptörsüz kullanıcaksanız modüle kondansatör lehimlemeniz gerekiyor. **[🙏Yardım Aldığım Kaynaklar](#heading-yardim-aldigim-kaynaklar)**’da hangi pinlere bağlandığıyla ilgili link var.
 
 -  2 adet [***nRF24L01 Wireless Modül Adaptörü***](https://www.direnc.net/8-pin-nrf24l01-wireless-modul-adaptoru) ***—*** Bu adaptör 5V ile çalışmayı sağlıyor. Antenli yada antensiz olsun ikisinde de kullanmanızı öneririm. Paraziti de azaltıyormuş(!)
 
@@ -105,7 +105,7 @@ Boş olan pin, kullanılmayan **IRQ** pini.
 
 ![Resim 3 · Modülün Adaptörsüz Bağlantısı](https://cdn.hashnode.com/res/hashnode/image/upload/v1666349017056/k3qc6yxMA.png align="center")
 
-Aşağıdaki pin dizilimleri **Nano/Uno** içindir. **Mega** için farklı pinler kullanılıyor. **🙏Yardım Aldığım Kaynaklar**’da o bağlantıları bulabilirsiniz.
+Aşağıdaki pin dizilimleri **Nano/Uno** içindir. **Mega** için farklı pinler kullanılıyor. **[🙏Yardım Aldığım Kaynaklar](#heading-yardim-aldigim-kaynaklar)**’da o bağlantıları bulabilirsiniz.
 
 <iframe src="https://sheetsu.com/tables/c5484340f1" width="337" height="337" frameborder="0" scrolling="no"></iframe>
 
@@ -156,7 +156,7 @@ Eğer adaptör kullanıcaksanız adaptörün VCC girişini 3.3V yerine 5V’a ba
 
 ## 📤 Ana Kodun Arduino’ya Yüklenmesi
 
-İndirilen **`Arduino-Walkie-Talkie-main.zip`** dosyasının içindeki **`main.ino`** kodunu iki Arduino’ya **📤 Kodların Arduino’ya Yüklenmesi**nde anlatıldığı gibi yükleyin.
+İndirilen **`Arduino-Walkie-Talkie-main.zip`** dosyasının içindeki **`main.ino`** kodunu iki Arduino’ya **[📤 Kodların Arduino’ya Yüklenmesi](#heading-kodlarin-arduinoya-yuklenmesi)**nde anlatıldığı gibi yükleyin.
 
 Sorunsuz yüklendiyse butona basıp konuşmaya başlayabilirsiniz.
 
