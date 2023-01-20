@@ -187,11 +187,11 @@ Devrenin arkasındaki pinlere dokununca devre bozulabiliyor. Bu yüzden arkasın
 
 * nRF24L01 çalışmasını çok güzel anlatıyor. Arduino Mega kullanacaklar için bağlantılar bu linkte mevcut.
     
-    %[https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/] 
+    [https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/)
     
 * nRF24L01 Antenli ve Antensiz menzil testi videosu
     
-    %[https://www.youtube.com/watch?v=2tfa9i0bsX8] 
+    [https://www.youtube.com/watch?v=2tfa9i0bsX8](https://www.youtube.com/watch?v=2tfa9i0bsX8)
     
 * Walkie-Talkie yapan en detaylı kaynak olabilir ama eksikleri var.
     
@@ -199,7 +199,7 @@ Devrenin arkasındaki pinlere dokununca devre bozulabiliyor. Bu yüzden arkasın
     
 * nRF24L01 adaptörsüz kullanıp kondansatör lehimlemeyi içeriyor.
     
-    %[https://ugrdmr.wordpress.com/2018/07/22/arduino-telsiz-walkie-talkie/] 
+    [https://ugrdmr.wordpress.com/2018/07/22/arduino-telsiz-walkie-talkie](https://ugrdmr.wordpress.com/2018/07/22/arduino-telsiz-walkie-talkie/)
     
 
 ## 🖋️ Sonuç Nasıl Oldu?
