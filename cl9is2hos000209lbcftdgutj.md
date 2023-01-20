@@ -41,17 +41,11 @@ Bu proje *Eylül 2020*'de yapılıp anlatımı [kişisel](https://zekeriyaay.com
 
 ***RF24***, ***RF24Audio*** kütüphanelerini ve telsiz için gereken kodları aşağıdaki bağlantılardan indirin.
 
-* ***RF24*** 
+* ***RF24 -*** [https://github.com/nRF24/RF24](https://github.com/nRF24/RF24)
     
-    %[https://github.com/nRF24/RF24] 
+* ***RF24Audio -*** [https://github.com/nRF24/RF24Audio](https://github.com/nRF24/RF24Audio)
     
-* ***RF24Audio***
-    
-    %[https://github.com/nRF24/RF24Audio] 
-    
-* ***Gerekli Kaynak Kodlar***
-    
-    %[https://github.com/ZekeriyaAY/Arduino-Walkie-Talkie] 
+* ***Gerekli Kaynak Kodlar -*** [https://github.com/ZekeriyaAY/Arduino-Walkie-Talkie](https://github.com/ZekeriyaAY/Arduino-Walkie-Talkie)
     
 
 ## 📤 Kütüphanelerin IDE’ye Eklenmesi
