@@ -3,7 +3,7 @@ name: Hugo Book Theme
 on:
   push:
     branches:
-      - maibBook  # Set a branch to deploy
+      - mainBook  # Set a branch to deploy
   workflow_dispatch: # Run workflow manually, through the Github Actions Workflow page directly
 
 jobs:
