@@ -6,7 +6,7 @@ title: "Example Site"
 
 # Introduction
 
-## Ferre hinnitibus erat accipitrem dixi Troiae tollens
+## Ferre hinnitibus as erat accipitrem dixi Troiae tollens
 
 Lorem markdownum, a quoque nutu est *quodcumque mandasset* veluti. Passim
 inportuna totidemque nympha fert; repetens pendent, poenarum guttura sed vacet
