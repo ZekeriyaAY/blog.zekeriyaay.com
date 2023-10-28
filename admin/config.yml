@@ -1,7 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   repo: "ZekeriyaAY/blog.zekeriyaay.com" # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
   branch: mainBook # Branch to update (optional; defaults to master)
+  preview_context: preview
 
 publish_mode: editorial_workflow # for drafting, reviewing, and approving content
 
