@@ -19,7 +19,7 @@ enableGitInfo = true
 
 # (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
 # You can remove related files with config below
-disableKinds = ['taxonomy', 'taxonomyTerm']
+disableKinds = ['taxonomy']
 
 # Needed for mermaid/katex shortcodes
 [markup]
@@ -47,13 +47,13 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
 [menu]
 # [[menu.before]]
 [[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
+  name = "Website"
+  url = "https://zekeriyaay.com"
   weight = 10
 
 [[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/hugo-book/"
+  name = "Github"
+  url = "https://github.com/ZekeriyaAY"
   weight = 20
 
 [params]
