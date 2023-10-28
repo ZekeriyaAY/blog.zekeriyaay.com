@@ -3,8 +3,11 @@ backend:
   repo: ZekeriyaAY/blog.zekeriyaay.com # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
   branch: mainBook # Branch to update (optional; defaults to master)
   base_url: https://blog.zekeriyaay.com
+  site_domain: blog.zekeriyaay.com
   open_authoring: true
-  auth_scope: repo # this is needed to fork the private repo
+  auth_endpoint: auth
+  api_root: https://api.github.com
+  # auth_scope: repo # this is needed to fork the private repo
   # preview_context: preview
 
 publish_mode: editorial_workflow # for drafting, reviewing, and approving content
