@@ -2,26 +2,37 @@ backend:
   name: github
   repo: ZekeriyaAY/blog.zekeriyaay.com # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
   branch: mainBook # Branch to update (optional; defaults to master)
-  base_url: https://blog.zekeriyaay.com
-  site_domain: blog.zekeriyaay.com
-  open_authoring: true
-  auth_endpoint: auth
   api_root: https://api.github.com
-  # auth_scope: repo # this is needed to fork the private repo
-  # preview_context: preview
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  open_authoring: true
+  cms_label_prefix: decap-cms/
+  preview_context: my-provider/deployment
 
 publish_mode: editorial_workflow # for drafting, reviewing, and approving content
 
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "static/media" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/media" # The src attribute for uploaded media will begin with /images/uploads
+
+site_url: https://blog.zekeriyaay.com # URL to netlify site
+show_preview_links: true # Show preview links in editorial workflow
+
+editor:
+  preview: true
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-' # Replace spaces with dashes
 
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "posts/"
+    folder: "content/posts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "preview/posts/{{slug}}"
+    preview_path_date_field: "updated_on"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -31,10 +42,11 @@ collections:
 
   - name: "docs"
     label: "Docs"
-    folder: "docs/"
+    folder: "content/docs/"
     create: true
     slug: "{{slug}}"
     preview_path: "preview/docs/{{slug}}"
+    preview_path_date_field: "updated_on"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
