@@ -3,7 +3,7 @@ backend:
   repo: ZekeriyaAY/blog.zekeriyaay.com # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
   branch: mainBook # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
-  site_domain: blog.zekeriyaay.com # Domain of your website without https://
+  site_domain: location.hostname # Domain of your website without https://
   base_url: https://api.netlify.com
   auth_endpoint: auth
   open_authoring: true
