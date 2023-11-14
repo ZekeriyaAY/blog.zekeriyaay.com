@@ -2,10 +2,9 @@ backend:
   name: github
   repo: ZekeriyaAY/blog.zekeriyaay.com # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
   branch: mainBook # Branch to update (optional; defaults to master)
-  api_root: https://api.github.com
+  # api_root: https://api.github.com
   base_url: https://api.netlify.com
   auth_endpoint: auth
-  open_authoring: true
   cms_label_prefix: decap-cms/
   preview_context: my-provider/deployment
 
