@@ -2,9 +2,8 @@ backend:
   name: github
   repo: ZekeriyaAY/blog.zekeriyaay.com # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
   branch: devBook # Branch to update (optional; defaults to master)
-  api_root: https://api.github.com
-  site_domain: blogzekeriyaay.netlify.app
-  site_id: 8fc9fce4-0794-413b-b58c-2327218a10d6
+  # api_root: https://api.github.com
+  site_domain: cms.zekeriyaay.com
   base_url: https://api.netlify.com
   auth_endpoint: auth
   cms_label_prefix: cms/
