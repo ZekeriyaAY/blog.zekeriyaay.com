@@ -97,7 +97,7 @@ disableKinds = ['taxonomy', 'term']
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/devBook'
+  BookEditPath = 'edit/mainBook'
 
   # Configure the date format used on the pages
   # - In git information
@@ -123,7 +123,7 @@ disableKinds = ['taxonomy', 'term']
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
+  BookServiceWorker = false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.

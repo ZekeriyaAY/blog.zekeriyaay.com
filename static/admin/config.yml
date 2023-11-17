@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: ZekeriyaAY/blog.zekeriyaay.com # Path to your GitHub repository. For forked repository, use "your-username/your-repo-name"
-  branch: devBook # Branch to update (optional; defaults to master)
+  branch: mainBook # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
   site_domain: blog.zekeriyaay.com
   base_url: https://api.netlify.com
@@ -23,7 +23,7 @@ editor:
 slug:
   encoding: ascii
   clean_accents: true
-  sanitize_replacement: '-' # Replace spaces with dashes
+  sanitize_replacement: "-" # Replace spaces with dashes
 
 collections:
   - name: "blog"
@@ -34,24 +34,5 @@ collections:
     preview_path: "preview/posts/{{slug}}"
     preview_path_date_field: "updated_on"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "docs"
-    label: "Docs"
-    folder: "content/docs/"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "preview/docs/{{slug}}"
-    preview_path_date_field: "updated_on"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Weight", name: "weight", widget: "number", default: 0}
-      - {label: "Book Flat Section", name: "bookFlatSection", widget: "boolean", default: false}
-      - {label: "Book Collapse Section", name: "bookCollapseSection", widget: "boolean", default: false}
-      - {label: "Book Hidden", name: "bookHidden", widget: "boolean", default: false}
-      - {label: "Book Toc", name: "bookToc", widget: "boolean", default: true}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
