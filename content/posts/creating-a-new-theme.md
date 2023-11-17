@@ -1,14 +1,14 @@
 ---
-author: "Michael Henderson"
-# date: 2014-09-28
+author: Michael Henderson
+title: Creating a New Theme 2
+date: 2023-11-17T19:43:48.589Z
+prev: /tutorials/automated-deployments
+next: /tutorials/github-pages-blog
+weight: 10
 linktitle: Creating a New Theme
 menu:
   main:
     parent: tutorials
-next: /tutorials/github-pages-blog
-prev: /tutorials/automated-deployments
-title: Creating a New Theme
-weight: 10
 ---
 
 
